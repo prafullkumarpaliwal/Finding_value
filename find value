@@ -1,0 +1,16 @@
+list1=[5,11,16,9,14,20,25]
+list2=[22,0,6,13,8,12]
+empty_list=[]
+empty_list1=[]
+for i in list1:
+ for j in list2:
+  add=i+j
+  empty_list.append(add)
+
+a=set(empty_list)
+s=list(a)
+print(s)
+for t in s:
+ if t<=25 and t>=23:
+  empty_list1.append(t)
+print(empty_list1)
